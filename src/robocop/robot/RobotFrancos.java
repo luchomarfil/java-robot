@@ -52,7 +52,7 @@ public class RobotFrancos {
 	 */
 	private void presionarTecla(int keycode, int tiempo){
 		robot.keyPress(keycode);
-		robot.delay(tiempo);
+		//robot.delay(tiempo);
 		robot.keyRelease(keycode);
 	}
 	/**
@@ -63,9 +63,7 @@ public class RobotFrancos {
 	 */
 	private void presionarTecla(int keycode, int tiempo, Point punto){
 		robot.mouseMove((int)punto.getX(),(int)punto.getY());
-		robot.keyPress(keycode);
-		robot.delay(tiempo);
-		robot.keyRelease(keycode);
+		presionarTecla(keycode, tiempo);
 	}
 	
 	/**

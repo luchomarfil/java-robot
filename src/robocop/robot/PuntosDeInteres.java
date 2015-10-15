@@ -1,8 +1,7 @@
 package robocop.robot;
 
 import java.awt.Point;
-
-import com.sun.glass.events.KeyEvent;
+import java.awt.event.KeyEvent;
 
 public class PuntosDeInteres {
 	public static Point UBICACION_INPUT_PERIODO;

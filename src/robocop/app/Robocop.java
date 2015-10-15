@@ -3,8 +3,6 @@
  */
 package robocop.app;
 
-import javax.swing.JFrame;
-
 import robocop.gui.PrototipoAplicacion;
 import robocop.gui.RobocopFrame;
 
